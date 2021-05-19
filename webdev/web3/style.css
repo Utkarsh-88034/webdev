@@ -1,0 +1,84 @@
+body{
+    background-size: cover;
+    top: 0%;
+    bottom: 0%;
+    background-image: url("https://wallpaperaccess.com/full/1385507.jpg");
+    background-position: center; 
+    height: 100%;
+    width: 100%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-weight: lighter;
+    font-size: 50px;
+}
+#description{
+    font-size: 25px;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding:70px;
+    border-radius: 0.9%;
+}
+input{
+    height:35px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+#options input{
+    height: auto;
+    transform: scale(1.5);
+}
+
+#check input{
+    height: auto;
+    transform: scale(1.5);
+}
+label{
+    font-size: 20px;
+}
+#check-text{
+    font-size: 20px;
+}
+legend{
+    font-size: 20px;
+}
+#comment{
+    height:200px;
+}
+select{
+    height: 35px;
+    color: rgba(85, 85, 85, 0.897);
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+input[placeholder]{
+    font-size: 18px;
+}
+option{
+    font-size: 18px;
+}
+#dropdown{
+    font-size: 18px;
+}    
+textarea[placeholder]{
+    font-size: 18px
+
+}
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/samarkan');
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:linear-gradient(to bottom, rgb(231, 208, 177), rgba(240, 212, 135,0));
+}
+#main-nav{
+    background: url(img/navbg2.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+#main-nav li{
+    display: inline;
+    padding:0 2%;
+}
+#main-nav a{
+    display: inline-block;
+    color: #000000;
+    font-weight:bolder;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    
+        
+}
+.nav a:hover{
+    background-color: rgba(31, 30, 30, 0.349);
+}
+#main-nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#main-header li{
+    display: inline-block;
+}
+#main-header ul{
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid rgb(240, 218, 179);
+}
+#main-header h1{
+    font-size: 55px;
+    font-family: samarkan;
+}
+#main-header img{
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+}
+.product h3{
+    font-family:  New Tegomin;
+    text-align: center;
+}
+.product img{
+    height: 200px;
+    width: 200px;
+}
+.product li{
+
+    display: inline-block;
+    padding:2%;
+}

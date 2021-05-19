@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('http://fonts.cdnfonts.com/css/samarkan');
+
+*{
+    box-sizing: border-box;
+    font-family: New Tegomin;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    /* background:linear-gradient(to top, rgb(168, 219, 226),rgba(168, 219, 226,0)) */
+    
+
+}
+
+.main-nav{
+    background-color: rgba(0, 0, 0, 0.479);
+    background-image: url(img/navbg.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.main-heading{
+    color: rgb(215, 219, 221);
+    font-family:'samarkan';
+}
+.main-heading-large{
+    text-align: center;
+    font-size: 60px;
+}
+.nav ul{
+    padding: 0;
+    margin: 0px;
+}
+.main-nav a{
+    display:inline-block;
+    font-size: 20px;
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgb(255, 253, 250);
+    
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3)
+}
+.nav li{
+    display: inline;
+}
+.nav{
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.main-nav li{
+    padding:0 5%;
+}
+.content{
+    padding: 1em;
+}
+.content h2{
+    text-align: center;
+    font-size: 40px;
+}
+.content img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 1em;
+    border-radius: 50%;
+    
+}
+footer{
+    background-color: rgb(157, 170, 207);
+    padding: 10px 0;
+}
+footer:hover{
+    background: linear-gradient(to right, rgb(157, 170, 207),rgba(157, 170, 207,0.9));
+}
+footer h2{
+    color: black;
+    font-family: samarkan;
+    font-size: 40px;
+    margin: 0;   
+}
+footer img{
+    height: 50px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+.footer-container nav{
+    flex-grow: 1;
+    text-align: end;
+    border-bottom: none;   
+} 
